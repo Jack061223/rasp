@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para el carrusel de imágenes del encabezado */
+.header-carousel {
+  height: 300px;
+  overflow: hidden;
+}
+
+.header-carousel .carousel-slide {
+  display: none;
+}
+
+/* Estilos para la sección de ofertas */
+#offer-section {
+  padding: 60px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+#offer-section h2 {
+  color: #333;
+}
+
+.offers-carousel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.offers-carousel .carousel-slide {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.offers-carousel .carousel-slide h3,
+.offers-carousel .carousel-slide p {
+  margin: 10px 0;
+}
+
+/* Estilos para la sección de ubicación */
+#location-section {
+  padding: 60px;
+  text-align: center;
+}
+
+#location-section h2 {
+  color: #333;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.address {
+  text-align: left;
+}
+
+/* Estilos para el mapa */
+#map {
+  height: 400px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
